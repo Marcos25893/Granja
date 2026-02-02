@@ -1,0 +1,22 @@
+{
+  "name": "animales",
+  "version": "1.0.0",
+  "description": "Aplicacion de animales",
+  "main": "app.js",
+  "author": "marcos",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --exit"
+  },
+
+  "dependencies": {
+    "express": "^5.2.1",
+    "supertest": "^7.2.2",
+    "underscore": "^1.13.7"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.5"
+  }
+}
